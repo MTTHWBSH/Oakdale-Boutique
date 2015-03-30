@@ -1,0 +1,13 @@
+# Site settings
+title: Oakdale Boutique
+baseurl: ""
+url: "http://oakdaleboutique.com"
+email: OakdaleBoutique@gmail.com
+etsy_username: OakdaleBoutique
+facebook_username:  OakdaleBoutique
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+    sass_dir: _sass

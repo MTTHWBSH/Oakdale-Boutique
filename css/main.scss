@@ -1,0 +1,100 @@
+---
+# Front Matter comment for Jekyll
+---
+@charset "utf-8";
+
+// Fonts
+@font-face {
+  font-family: 'ThirstyScript-Bold';
+  src: url("../assets/fonts/293F77_1_0.eot");
+  src: url("../assets/fonts/293F77_1_0.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/293F77_1_0.woff") format("woff"), url("../assets/fonts/293F77_1_0.ttf") format("truetype"); }
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Arapey);
+
+$sans: 'Roboto', sans-serif;
+$serif: 'Arapey', 'Helvetica Neue', serif;
+$script: 'ThirstyScript-Bold', serif;
+
+
+// Variables
+$base-font-size:   			16px;
+$small-font-size:  			$base-font-size * 0.875;
+$large-font-size:  			$base-font-size * 1.25;
+$xlarge-font-size: 			$base-font-size * 1.5;
+$xxlarge-font-size: 		$base-font-size * 3.0;
+$base-line-height: 			1.5;
+
+$spacing-unit:     			30px;
+
+$white: 					#ffffff;
+$grayLight: 				#ecf0f1;
+$gray: 						#95a5a6;
+$grayDark: 					#030303;
+$blueLight: 				#3498db;
+$blue: 						#2e8dcc;
+$blueDark: 					#2c3e50;
+
+$content-width:				1000px;	
+
+// Breakpoint Widths
+$device-large:	   			1200px;			
+$device-medium:    			900px;
+$device-small:     			600px;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+// @import
+//     "normalize",
+//     "base",
+//     "hero",
+//     "work",
+//     "resume",
+//     "contact",
+//     "post",
+//     "404",
+//     "layout"
+// ;
+
+// To delete
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	text-align: center;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	padding-top: 100px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	li {
+		display: inline;
+		padding: 0 15px;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: $script;
+	font-size: 60px;
+	color: $grayDark;
+}
+
+.icon {
+	svg {
+		fill: $grayDark;
+		height: 40px;
+		width: 40px;
+	}
+}

@@ -1,0 +1,26 @@
+<section class="contact" id="contact">
+  <div class="wrapper">
+    <header class="section-header">
+      <h1>Contact</h1>
+    </header>
+    <ul class="contact-list">
+    {% if site.etsy_username %}
+      <li>
+        {% include icons/etsy.html %}
+      </li>
+      {% endif %}
+
+    {% if site.facebook_username %}
+      <li>
+        {% include icons/facebook.html %}
+      </li>
+    {% endif %}
+      
+    {% if site.email %}
+      <li>
+        {% include icons/mail.html %}
+      </li> 
+    {% endif %}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+/**
+ * 404
+ */
+
+.fourohfour {
+	text-align: center;
+	margin-top: 10%;
+	h2 {
+		color: $gray;
+		a {
+			color: $gray;
+			border-bottom: 2px dotted $gray;
+			&:hover {
+				color: $gray;
+			}
+		}
+	}
+}

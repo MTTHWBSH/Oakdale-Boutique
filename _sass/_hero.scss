@@ -1,0 +1,84 @@
+/**
+ * Site header
+ */
+
+.hero {
+	background: url('../assets/images/hero.gif');
+	background-size: cover;
+	text-align: center;
+	color: $white;
+	position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom:  0;
+    left: 0;
+    right: 0;
+	@extend .flex-aligner;
+	.wrapper {
+		width: 600px + $spacing-unit;
+	    margin: auto;
+	    @include media-query($device-small) {
+	    	margin: 0;
+	    }
+	}
+	.content {
+		padding: $spacing-unit / 2;
+		@extend .flex-aligner-item;
+		@extend .flex-aligner-item--fixed;
+	}
+	h1 {
+		font-size: $xxlarge-font-size;
+		font-family: $base-font-family;
+		font-weight: 300;
+		line-height: 1.0;
+		position: relative;
+		span {
+			font-family: $base-font-family-xlight;
+		}
+		@include media-query($device-small) {
+	    	font-size: $xlarge-font-size * 1.5;
+	    }
+	}
+	h3 {
+		font-size: $large-font-size;
+		font-family: $base-font-family-xlight;
+		letter-spacing: 1.0px;
+		line-height: 1.25;
+		span {
+			font-family: $base-font-family;
+		}
+		a {
+			border-bottom: 2px dotted $white;
+		}
+		@include media-query($device-small) {
+			font-size: $base-font-size;
+			margin-top: $spacing-unit / 2;
+	    }
+	}
+	.logo {
+		height: 150px;
+		width: 150px;
+		border-radius: 100%;
+		border: 2px solid $grayLight;
+		margin: $spacing-unit auto;
+	}
+	a {
+		color: $white;
+		&:hover {
+			color: $white;
+		}
+	}
+	.bounce {
+		@include animation(bounce 2s infinite);
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin-left:-20px;
+		width: 40px;
+		height: 40px;
+		background-size: contain;
+        path {
+            fill: $white;
+        }
+	}
+}

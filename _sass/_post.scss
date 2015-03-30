@@ -1,0 +1,46 @@
+/**
+ * Post
+ */
+
+.post {
+	a.back {
+		float: left;
+		padding: 0 $spacing-unit / 2 0 $spacing-unit;
+		position: fixed;
+		@include media-query($device-medium) {
+			padding: $spacing-unit / 3;
+		}
+		&:hover > .icon>svg path {
+			@include transition(all, .2s, linear);
+			fill: $blue;
+		}
+	}
+	.post-content {
+		max-width: $post-width;
+		margin: $spacing-unit auto;
+		border-left: 4px double $gray;
+		padding: 0 $spacing-unit;
+		.post-title {
+			line-height: 1.2;
+			margin-bottom: $spacing-unit / 2;
+		}
+		p {
+			margin: $spacing-unit / 2 0;
+		}
+		img {
+			width: 100%;
+			margin: $spacing-unit / 2 0;
+		}
+		@include media-query($device-medium) {
+			margin-left: $spacing-unit * 1.75;
+			padding: 0 $spacing-unit / 2;
+		}
+	}
+	ul li {
+		margin-bottom: $spacing-unit / 3;
+		&:before {
+			content: "+ ";
+			color: $gray;
+		}
+	}
+}

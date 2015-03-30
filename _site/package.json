@@ -1,0 +1,30 @@
+{
+  "name": "Oakdale-Boutique",
+  "version": "1.0.0",
+  "description": "Portfolio / POC for furniture restoration business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MTTHWBSH/Oakdale-Boutique.git"
+  },
+  "author": "Matthew Bush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTTHWBSH/Oakdale-Boutique/issues"
+  },
+  "homepage": "http://oakdaleboutique.com",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-minify-html": "^1.0.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-shell": "^0.4.0",
+    "imagemin-gifsicle": "^4.1.0",
+    "imagemin-jpegtran": "^4.1.0",
+    "imagemin-optipng": "^4.2.0",
+    "imagemin-pngquant": "^4.0.0"
+  }
+}
