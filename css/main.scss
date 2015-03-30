@@ -42,59 +42,15 @@ $device-medium:    			900px;
 $device-small:     			600px;
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-// @import
-//     "normalize",
-//     "base",
-//     "hero",
-//     "work",
-//     "resume",
-//     "contact",
-//     "post",
-//     "404",
-//     "layout"
-// ;
-
-// To delete
-html, body {
-	margin: 0;
-	padding: 0;
-}
-
-.content {
-	text-align: center;
-}
-
-img {
-	height: 200px;
-	width: 200px;
-	margin: auto;
-	padding-top: 100px;
-}
-
-ul {
-	list-style-type: none;
-	padding: 0;
-	li {
-		display: inline;
-		padding: 0 15px;
-	}
-}
-
-a {
-	text-decoration: none;
-}
-
-h1 {
-	font-family: $script;
-	font-size: 60px;
-	color: $grayDark;
-}
-
-.icon {
-	svg {
-		fill: $grayDark;
-		height: 40px;
-		width: 40px;
-	}
-}
+Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "normalize",
+    "base",
+    "hero",
+    "work",
+    "resume",
+    "contact",
+    "post",
+    "404",
+    "layout"
+;
