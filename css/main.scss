@@ -26,31 +26,33 @@ $base-line-height: 			1.5;
 
 $spacing-unit:     			30px;
 
-$white: 					#ffffff;
-$grayLight: 				#ecf0f1;
-$gray: 						#95a5a6;
-$grayDark: 					#030303;
-$blueLight: 				#3498db;
-$blue: 						#2e8dcc;
-$blueDark: 					#2c3e50;
-
-$content-width:				1000px;	
-
+$white: 					      #ffffff;
+$grayLight: 				    #ecf0f1;
+$gray: 						      #95a5a6;
+$grayDark: 					    #030303;
+$blueLight: 				    #3498db;
+$blue: 						      #2e8dcc;
+$blueDark: 					    #2c3e50;
+    
+$content-width:			    1000px;	
+    
 // Breakpoint Widths
 $device-large:	   			1200px;			
 $device-medium:    			900px;
 $device-small:     			600px;
 
 
-Import partials from `sass_dir` (defaults to `_sass`)
+// Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "normalize",
-    "base",
-    "hero",
-    "work",
-    "resume",
-    "contact",
-    "post",
-    "404",
-    "layout"
+  "normalize",
+  "base",
+  "nav",
+  "hero",
+  "shop",
+  "info",
+  "contact",
+  "post",
+  "footer",
+  "404",
+  "layout"
 ;

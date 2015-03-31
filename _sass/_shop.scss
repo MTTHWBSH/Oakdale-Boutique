@@ -54,7 +54,7 @@ section.work {
 			text-align: center;
 		}
 		p {
-			font-family: $base-font-family-xlight;
+			font-family: $sans;
 			font-size: $large-font-size;
 			color: $gray;
 			@include media-query($device-medium) {

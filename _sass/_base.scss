@@ -30,7 +30,7 @@ section {
         h1 {
             color: $grayDark;
             display: block;
-            font-family: $base-font-family;
+            font-family: $sans;
             font-size: $large-font-size;
             letter-spacing: 3px;
             text-transform: uppercase;
@@ -188,7 +188,7 @@ section {
  * Basic styling
  */
 body {
-    font-family: $base-font-family-light;
+    font-family: $serif;
     font-size: $base-font-size;
     letter-spacing: 1px;
     line-height: $base-line-height;
