@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 }
 
 .parallax-content {
-    z-index: 1000;
+    z-index: 10;
     background-color: $white;
     position: absolute;
     width: 100%;
@@ -24,24 +24,15 @@ dl, dd, ol, ul, figure {
 
 section {
     padding: $spacing-unit 0;
+    border-bottom: 4px double $grayDark;
     .section-header {
-        text-align: center;
+        text-align: left;
         margin-bottom: $spacing-unit;
         h1 {
             color: $grayDark;
             display: block;
-            font-family: $sans;
-            font-size: $large-font-size;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-        &:after {
-            content: "";
-            display: inline-block;
-            width: 45px;
-            border-width: 1px 0;
-            border-style: solid;
-            border-color: $gray;
+            font-family: $script;
+            font-size: $xxlarge-font-size;
         }
     }
 }
