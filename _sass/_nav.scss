@@ -14,5 +14,27 @@
 		font-family: $script;
 		font-size: $large-font-size;
 		line-height: 50px;
+		display: inline;
+		float: left;
+	}
+	ul {
+		float: right;
+		list-style-type: none;
+		line-height: 50px;
+		font-family: $sans;
+		font-size: $base-font-size;
+		margin: 0;
+
+		li {
+			display: inline;
+			border-right: 1px solid;
+			padding: 3px $spacing-unit / 2;
+			&:last-child {
+				border: none;
+			}
+		}
+		a {
+			color: $grayDark;
+		}
 	}
 }

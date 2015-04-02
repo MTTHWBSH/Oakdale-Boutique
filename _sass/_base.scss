@@ -23,7 +23,7 @@ dl, dd, ol, ul, figure {
 }
 
 section {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit * 2 0;
     border-bottom: 4px double $grayDark;
     .section-header {
         text-align: left;
@@ -85,8 +85,8 @@ section {
 .icon {
     > svg {
         display: inline-block;
-        width: 32px;
-        height: 32px;
+        width: 80px;
+        height: 80px;
         vertical-align: middle;
         path {
             fill: $gray;

@@ -28,7 +28,7 @@
     $(".hero").css({
       height: ($(window).height() - 50) + "px"
     });
-    $(".parallax-content").css('margin-top', ($(window).height() + 50) + "px");
+    $(".parallax-content").css('margin-top', ($(window).height()) + "px");
   };
 
   showContent = function() {
