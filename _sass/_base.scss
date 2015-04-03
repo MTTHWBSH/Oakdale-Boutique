@@ -142,19 +142,46 @@ section {
     }
 }
 
-@include keyframes(bounce) {
-    0%, 20%, 50%, 80%, 100% {
-        @include transform(translateY(0));
+// Animations
+
+@include keyframes(hero) {
+    0% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero2.jpg');
+        background-size: cover;
     }
-    40% {
-        @include transform(translateY(-30px));
+    23% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero2.jpg');
+        background-size: cover;
     }
-    60% {
-        @include transform(translateY(-15px));
+    25% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero.jpg');   
+        background-size: cover; 
+    }
+    48% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero.jpg'); 
+        background-size: cover;   
+    }
+    50% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero3.jpg');
+        background-size: cover;    
+    }
+    73% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero3.jpg');  
+        background-size: cover;  
+    }
+    75% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero4.jpg'); 
+        background-size: cover;
+    }
+    98% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero4.jpg'); 
+        background-size: cover;   
+    }
+    100% {
+        background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero2.jpg'); 
+        background-size: cover;
     }
 }
-
-// Animations
 
 @include keyframes(fadein) {
     0%   { opacity: 0; }

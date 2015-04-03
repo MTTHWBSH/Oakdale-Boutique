@@ -3,7 +3,7 @@
  */
 
 .hero {
-	background: url('../assets/images/hero2.jpg');
+	background: url('http://res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero2.jpg');
 	background-size: cover;
 	text-align: center;
 	color: $white;
@@ -13,7 +13,15 @@
     bottom:  0;
     left: 0;
     right: 0;
-	@extend .flex-aligner;
+  	-webkit-animation-name: hero;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: hero;
+	-moz-animation-duration: 30s;
+	-moz-animation-iteration-count: infinite;
+    animation-name: hero;
+  	animation-duration: 30s;
+  	animation-iteration-count: infinite;
 	.wrapper {
 		width: 600px + $spacing-unit;
 	    margin: auto;
