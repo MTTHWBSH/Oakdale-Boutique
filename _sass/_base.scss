@@ -9,10 +9,10 @@ dl, dd, ol, ul, figure {
 }
 
 ::selection {
-  background: $grayLight;
+  background: $greenLight;
 }
 ::-moz-selection {
-  background: $grayLight;
+  background: $greenLight;
 }
 
 .parallax-content {
@@ -33,6 +33,7 @@ section {
             display: block;
             font-family: $script;
             font-size: $xxlarge-font-size;
+            line-height: 100%;
         }
     }
 }
@@ -86,11 +87,11 @@ section {
     > svg {
         display: inline-block;
         width: auto;
-        height: 80px;
+        height: 70px;
         vertical-align: middle;
         path {
-            fill: $gray;
-            stroke: $gray;
+            fill: $grayLight;
+            stroke: $grayLight;
         }
     }
 }
@@ -146,7 +147,7 @@ section {
 // Animations
 
 @include keyframes(hero) {
-    0% {
+    from {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero2.jpg');
         background-size: cover;
     }
@@ -156,15 +157,15 @@ section {
     }
     25% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero.jpg');   
-        background-size: cover; 
+        background-size: cover;
     }
     48% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero.jpg'); 
-        background-size: cover;   
+        background-size: cover;  
     }
     50% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero3.jpg');
-        background-size: cover;    
+        background-size: cover;
     }
     73% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero3.jpg');  
@@ -176,9 +177,9 @@ section {
     }
     98% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero4.jpg'); 
-        background-size: cover;   
+        background-size: cover;
     }
-    100% {
+    to {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/v1427902735/Oakdale-Boutique/hero2.jpg'); 
         background-size: cover;
     }
@@ -267,11 +268,11 @@ li {
  * Links
  */
 a {
-    color: $blueLight;
+    color: $green;
     text-decoration: none;
     @include transition(all, 0.2s, linear);
     &:hover {
-        color: darken($blueLight, 15%);
+        color: darken($green, 15%);
         text-decoration: none;
         @include transition(all, 0.2s, linear);
     }

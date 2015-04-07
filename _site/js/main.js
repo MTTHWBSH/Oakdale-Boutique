@@ -1,5 +1,5 @@
 (function() {
-  var heroSize, parallax, showContent;
+  var heroSize, showContent;
 
   $(document).ready(function() {
     heroSize();
@@ -7,10 +7,6 @@
 
   $(window).load(function() {
     showContent();
-  });
-
-  $(window).scroll(function(e) {
-    parallax();
   });
 
   $(window).resize(function() {
@@ -32,13 +28,6 @@
       }
     });
   });
-
-  parallax = function() {
-    var scrolled;
-    scrolled = $(window).scrollTop();
-    $(".hero").css("top", -(scrolled * 0.0315) + "rem");
-    $(".hero .content").css("top", -(scrolled * -0.005) + "rem");
-  };
 
   heroSize = function() {
     $(".hero").css({

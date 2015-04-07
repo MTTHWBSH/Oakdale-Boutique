@@ -10,10 +10,6 @@
 		@include media-query($device-medium) {
 			padding: $spacing-unit / 3;
 		}
-		&:hover > .icon>svg path {
-			@include transition(all, .2s, linear);
-			fill: $blue;
-		}
 	}
 	.post-content {
 		max-width: $content-width;

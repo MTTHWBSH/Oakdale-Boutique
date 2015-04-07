@@ -3,8 +3,31 @@
  */
 
 section.info {
+	.process {
+		display: flex;
+		justify-content: center;
+		margin-bottom: $spacing-unit;
+		.card {
+			margin: 0 $spacing-unit * 2;
+		}
+		.icon>svg {
+			height: 100px;
+			path {
+				fill: $grayLight;
+				stroke: $grayLight;
+			}
+		}
+		h2 {
+			margin-top: $spacing-unit / 2;
+			font-family: $sans;
+			text-align: center;
+			font-size: $large-font-size;
+			color: $grayLight;
+		}
+	}
 	p {
 		font-family: $serif;
 		font-size: $large-font-size;
+		margin-bottom: $spacing-unit / 2;
 	}
 }

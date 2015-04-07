@@ -12,10 +12,21 @@
 	width: 100%;
 	h1 {
 		font-family: $script;
-		font-size: $large-font-size;
+		font-size: $xlarge-font-size;
 		line-height: 50px;
 		display: inline;
 		float: left;
+		padding: 0 $spacing-unit / 2;
+		a {
+			color: $grayDark;
+			&:hover {
+				color: $grayDark;
+			}
+		}
+		@include media-query($device-small) {
+ 			display: none;
+ 			visibility: hidden;
+ 		}
 	}
 	ul {
 		float: right;
@@ -36,5 +47,9 @@
 		a {
 			color: $grayDark;
 		}
+		@include media-query($device-small) {
+ 			float: none;
+ 			text-align: center;
+ 		}
 	}
 }

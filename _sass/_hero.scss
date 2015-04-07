@@ -22,6 +22,11 @@
     animation-name: hero;
   	animation-duration: 30s;
   	animation-iteration-count: infinite;
+  	img {
+  		background-size: cover;
+  		height: 100%;
+  		width: 100%;
+  	}
 	.wrapper {
 		width: 600px + $spacing-unit;
 	    margin: auto;
