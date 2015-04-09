@@ -11,10 +11,15 @@ section.info {
 			margin: 0 $spacing-unit * 2;
 		}
 		.icon>svg {
-			height: 100px;
 			path {
 				fill: $grayLight;
 				stroke: $grayLight;
+			}
+		}
+		.icon--truck>svg {
+			path {
+				fill: none;
+				stroke-width: 2.5;
 			}
 		}
 		h2 {
@@ -23,6 +28,7 @@ section.info {
 			text-align: center;
 			font-size: $large-font-size;
 			color: $grayLight;
+			letter-spacing: 1px;
 		}
 	}
 	p {
