@@ -11,10 +11,31 @@
 			a {
 				display: inline-block;
 				padding: $spacing-unit / 2;
+				margin: 0 $spacing-unit / 2;
 				opacity: .7;
+				height: 70px;
+				width: 70px;
+				line-height: 70px;
+				background: $grayLight;
+				border-radius: 100%;
+				@include media-query($device-small) {
+					height: 40px;
+					width: 40px;
+					line-height: 40px;
+					margin: 0 $spacing-unit / 4;
+				}
 				&:hover, &:active {
 					opacity: 1.0;
 					@include transform(translateY(-2px));
+				}
+				.icon>svg {
+					path {
+						fill: $white;
+						stroke: $white;
+					}
+					@include media-query($device-small) {
+						height: 32px;
+					}
 				}
 			}
 		}

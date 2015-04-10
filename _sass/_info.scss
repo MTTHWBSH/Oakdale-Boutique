@@ -7,10 +7,19 @@ section.info {
 		display: flex;
 		justify-content: center;
 		margin-bottom: $spacing-unit;
+		text-align: center;
+		@include media-query($device-small) {
+			display: block;
+		}
 		.card {
 			margin: 0 $spacing-unit * 2;
+			@include media-query($device-small) {
+				margin: $spacing-unit 0;
+				display: block;
+			}
 		}
 		.icon>svg {
+			height: 70px;
 			path {
 				fill: $grayLight;
 				stroke: $grayLight;
