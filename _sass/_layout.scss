@@ -5,6 +5,7 @@
  .wrapper {
  	max-width: $content-width;
  	margin: auto;
+ 	overflow: hidden;
  	@include media-query($content-width) {
  		max-width: 100%;
  		margin: 0 $spacing-unit / 2;

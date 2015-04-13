@@ -27,16 +27,4 @@
   		height: 100%;
   		width: 100%;
   	}
-	.wrapper {
-		width: 600px + $spacing-unit;
-	    margin: auto;
-	    @include media-query($device-small) {
-	    	margin: 0;
-	    }
-	}
-	.content {
-		padding: $spacing-unit / 2;
-		@extend .flex-aligner-item;
-		@extend .flex-aligner-item--fixed;
-	}
 }

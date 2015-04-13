@@ -4,7 +4,7 @@ permalink: /trunkclub/
 title: 'Trunk Club'
 author: mtthwbsh
 excerpt: Various projects contributed to since joining the Trunk Club Engineering team as a software designer & engineer in October, 2013
-thumbnail: /assets/images/thumbnail.png
+thumbnail: http://placehold.it/500x500
 categories:
   - Portfolio
 ---
@@ -40,16 +40,6 @@ All of these experiences were the product of a team and reflect the state they w
 
 <!-- Links -->
 [link1]:			https://trunkclub.com/engineering
-[link2]:			http://techcrunch.com/2014/07/31/nordstrom-acquires-mens-shopping-service-trunk-club/
-[link3]:			https://www.trunkclub.com/locations
-[link4]:			https://www.trunkclub.com/
-
 
 <!-- Images -->
 [image1]: 			/assets/images/trunk-preview.png
-[image2]: 			/assets/images/catalog.png
-[image3]: 			/assets/images/outfitting.png
-[image4]: 			/assets/images/stylist1.png
-[image5]: 			/assets/images/stylist2.png
-[image6]: 			/assets/images/custom1.png
-[image7]: 			/assets/images/custom2.png

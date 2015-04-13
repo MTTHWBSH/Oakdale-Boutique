@@ -43,6 +43,12 @@ section.info {
 	p {
 		font-family: $serif;
 		font-size: $large-font-size;
-		margin-bottom: $spacing-unit / 2;
+		margin-bottom: $spacing-unit / 1.25;
+	}
+	h3 {
+		font-family: $sans;
+		font-size: $base-font-size;
+		color: $grayLight;
+		font-weight: 700;
 	}
 }

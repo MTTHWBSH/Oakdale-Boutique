@@ -2,64 +2,73 @@
  * Work Section
  */
 
-section.work {
-	background-color: $white;
-	padding: $spacing-unit 0 0;
-	max-width: 1700px;
-	margin: auto;
-	.post-preview {
-		width: 100%;
-		height: auto;
-		@extend .flex-aligner;
-		&:nth-child(odd) {
-			-webkit-flex-direction: row; 
-			flex-direction: row;
-		}
-		&:nth-child(even) {
-			-webkit-flex-direction: row-reverse; 
-			flex-direction: row-reverse;
-		}
-		a img {
-			width: 100%;
-			height: auto;
-			overflow: hidden;
-			opacity: .9;
-			@include transition(all, 0.3s, ease-in-out);
-			&:hover {
-				opacity: 1;
-			}
-		}
-		.excerpt-wrapper {
-			width: 50%;
-			height: 100%;
-			text-align: center;
-			@extend .flex-aligner-item;
-			@extend .flex-aligner-item--fixed;
-			.excerpt {
-				width: 90%;
-				max-width: 600px;
-				margin: auto;
-				@include media-query($device-medium) {
-					padding: 0;
-					width: 100%;
-					max-width: 100%;
-		 		}
-			}
-		}
+section.shop {
+	text-align: center;
+	.post-list {
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-flex-flow: row wrap;
+	  flex-flow: row wrap;
+	  -webkit-justify-content: space-between;
+	  justify-content: space-between;
+	}
+	li.post-preview {
+		@include transition(all, 0.3s, ease-in-out);
+		box-sizing: border-box;
+		-webkit-flex: 0 0 auto;
+  		flex: 0 0 auto;
+  		margin: $spacing-unit / 2;
+  		width: 30%;
+  		background: lighten($grayLight, 20%);
+  		&:nth-child(3n+1) { 
+  			margin-left: 0;
+  		}
+  		&:nth-child(3n+3) {
+  			margin-right: 0;
+  		}
+  		a {
+  			display: block;
+  			height: 100%;
+  			width: 100%;
+  			img {
+				width: 100%;
+				border-bottom: 2px solid $grayLight;
+  			}
+  		}
 		h2 {
-			font-size: $base-font-size;
-			margin: $spacing-unit / 2 0;
-			width: 100%;
-			display: block;
-			text-align: center;
+			
 		}
 		p {
 			font-family: $sans;
 			font-size: $large-font-size;
 			color: $gray;
-			@include media-query($device-medium) {
-		 		display: none;
-		 	}
 		}
+		aside {
+			display: block;
+			padding: $spacing-unit / 2 $spacing-unit / 3;
+			span.title {
+				display: inline-block;
+				width: 80%;
+				text-overflow: ellipsis;
+				color: $grayDark;
+				text-align: left;
+				font-family: $sans;
+			}
+			span.price {
+				float: right;
+				width: 20%;
+				color: $green;
+				font-weight: 700;
+				text-align: right;
+				font-family: $sans;
+			}
+		}
+	}
+	a.button {
+		display: inline-block;
+		margin-top: $spacing-unit;
 	}
 }

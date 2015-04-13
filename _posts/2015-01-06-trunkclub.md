@@ -4,7 +4,7 @@ permalink: /trunkclub/
 title: 'Trunk Club'
 author: mtthwbsh
 excerpt: Various projects contributed to since joining the Trunk Club Engineering team as a software designer & engineer in October, 2013
-thumbnail: /assets/images/thumbnail.png
+thumbnail: http://placehold.it/500x500
 categories:
   - Portfolio
 ---
