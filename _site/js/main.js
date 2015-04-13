@@ -42,23 +42,21 @@
   };
 
   loadMorePosts = function() {
-    var $posts, _this, nextPage, totalPages;
+    var $nextPage, $posts, $totalPages, _this;
     _this = this;
     $posts = $('.post-list');
-    nextPage = parseInt($posts.attr('data-page')) + 1;
-    totalPages = parseInt($posts.attr('data-totalPages'));
-    $(this).addClass('loading');
-    $.get('/page' + nextPage, function(data) {
+    $nextPage = $posts.data('page') + 1;
+    $totalPages = $posts.data('totalpages');
+    if ($nextPage === $totalPages) {
+      $('.loadMore').hide();
+    }
+    $(_this).addClass('loading');
+    return $.get('/page' + $nextPage, function(data) {
       var $post, htmlData;
       htmlData = $.parseHTML(data);
       $post = $(htmlData).find('.post-preview');
-      $posts.attr('data-page', nextPage).append($post);
-      console.log($posts.attr('data-page'), totalPages);
-      if ($posts.attr('data-page') === totalPages) {
-        $('.loadMore').remove();
-        console.log("they are the same");
-      }
-      $(_this).removeClass('loading');
+      $posts.attr('data-page', $nextPage).append($post);
+      return $(_this).removeClass('loading');
     });
   };
 

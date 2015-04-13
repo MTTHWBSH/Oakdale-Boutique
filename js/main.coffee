@@ -38,17 +38,13 @@ showContent = ->
 loadMorePosts = ->
   _this = this
   $posts = $('.post-list')
-  nextPage = parseInt($posts.attr('data-page')) + 1
-  totalPages = parseInt($posts.attr('data-totalPages'))
-  $(this).addClass 'loading'
-  $.get '/page' + nextPage, (data) ->
+  $nextPage = $posts.data('page') + 1
+  $totalPages = $posts.data('totalpages')
+  if $nextPage == $totalPages
+    $('.loadMore').hide()
+  $(_this).addClass 'loading'
+  $.get '/page' + $nextPage, (data) ->
     htmlData = $.parseHTML(data)
     $post = $(htmlData).find('.post-preview')
-    $posts.attr('data-page', nextPage).append $post
-    console.log($posts.attr('data-page'), totalPages)
-    if $posts.attr('data-page') == totalPages
-      $('.loadMore').remove()
-      console.log("they are the same")
+    $posts.attr('data-page', $nextPage).append $post
     $(_this).removeClass 'loading'
-    return
-  return
