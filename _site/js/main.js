@@ -48,13 +48,15 @@
     nextPage = parseInt($posts.attr('data-page')) + 1;
     totalPages = parseInt($posts.attr('data-totalPages'));
     $(this).addClass('loading');
-    $.get('/page/' + nextPage, function(data) {
+    $.get('/page' + nextPage, function(data) {
       var $post, htmlData;
       htmlData = $.parseHTML(data);
       $post = $(htmlData).find('.post-preview');
       $posts.attr('data-page', nextPage).append($post);
-      if ($posts.attr('data-totalPages') === nextPage) {
+      console.log($posts.attr('data-page'), totalPages);
+      if ($posts.attr('data-page') === totalPages) {
         $('.loadMore').remove();
+        console.log("they are the same");
       }
       $(_this).removeClass('loading');
     });

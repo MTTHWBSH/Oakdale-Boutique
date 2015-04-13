@@ -13,7 +13,7 @@ section.shop {
 	  -webkit-flex-flow: row wrap;
 	  flex-flow: row wrap;
 	  -webkit-justify-content: space-between;
-	  justify-content: space-between;
+	  justify-content: flex-start;
 	}
 	li.post-preview {
 		@include transition(all, 0.3s, ease-in-out);
@@ -70,5 +70,9 @@ section.shop {
 	a.button {
 		display: inline-block;
 		margin-top: $spacing-unit;
+		.loading {
+			pointer-events: none;
+			cursor: default;
+		}
 	}
 }
