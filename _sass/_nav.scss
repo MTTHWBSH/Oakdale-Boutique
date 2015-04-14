@@ -16,7 +16,7 @@
 		line-height: 50px;
 		display: inline;
 		float: left;
-		padding: 0 $spacing-unit / 2;
+		padding: 0;
 		a {
 			color: $grayDark;
 			&:hover {
@@ -43,6 +43,7 @@
 			letter-spacing: 1px;
 			&:last-child {
 				border: none;
+				padding-right: 0;
 			}
 		}
 		a {

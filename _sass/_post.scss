@@ -3,40 +3,45 @@
  */
 
 .post {
-	a.back {
-		float: left;
-		padding: 0 $spacing-unit / 2 0 $spacing-unit;
-		position: fixed;
-		@include media-query($device-medium) {
-			padding: $spacing-unit / 3;
-		}
-	}
 	.post-content {
-		max-width: $content-width;
-		margin: $spacing-unit auto;
-		border-left: 4px double $gray;
-		padding: 0 $spacing-unit;
+		margin-top: 50px;
+		header {
+			margin-bottom: $spacing-unit;
+		}
 		.post-title {
-			line-height: 1.2;
-			margin-bottom: $spacing-unit / 2;
+			display: inline-block;
+			max-width: 70%;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+			line-height: 1.0;
+			@include media-query($device-small) {
+ 				width: 65%;
+ 				font-size: $large-font-size;
+ 			}
+		}
+		.price {
+			color: $grayLight;
+			font-family: $sans;
+			font-size: $large-font-size;
+			line-height: 1.0;
+		}
+		.buy {
+			float: right;
+			width: 27%;
+			padding: 15px 0;
+			@include media-query($device-small) {
+				font-size: $base-font-size;
+				width: 35%;
+			}
 		}
 		p {
 			margin: $spacing-unit / 2 0;
+			font-size: $large-font-size;
 		}
 		img {
 			width: 100%;
 			margin: $spacing-unit / 2 0;
-		}
-		@include media-query($device-medium) {
-			margin-left: $spacing-unit * 1.75;
-			padding: 0 $spacing-unit / 2;
-		}
-	}
-	ul li {
-		margin-bottom: $spacing-unit / 3;
-		&:before {
-			content: "+ ";
-			color: $gray;
 		}
 	}
 }
