@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 Beautifully crafted antique side table hand painted in medium grey color features three drawers, original hardware, lightly distressed finish and weathered wood top. Finished with ultra matte varnish to protect tabletop. The table is bordered with gorgeous intricate details. Perfect for a nightstand, entryway table or side table! This is a great accent piece. 
 
-_**DIMENSIONS:** Height: 27" Width: 24.5" Depth: 17.5"_ 
+###### **DIMENSIONS:** Height: 27" Width: 24.5" Depth: 17.5"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/listing/229986244/charcoal-grey-buffet-with-copper
 
 This is quite the dining room show stopper! This fantastic charcoal grey buffet with original hardware spray painted copper features two large storage cabinets and two drawers to store all your beloved dishes and silverware! Ultra matte finish with paste wax for protection against scratches. 
 
-_**DIMENSIONS:** Height: 36.5" Width: 66" Depth: 22"_
+###### **DIMENSIONS:** Height: 36.5" Width: 66" Depth: 22"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

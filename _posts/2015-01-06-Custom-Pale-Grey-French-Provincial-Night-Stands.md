@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 Bring a little bit of Paris inside! Matching semi-gloss pale grey French provincial night stands. Features original hardware painted gold, gorgeous claw feet and two drawers with storage below. Finished with creme wax for a little bit of shine. Perfect for use as night stands or end tables. 
 
-_**DIMENSIONS:** Height: 26.5" Length: 22" Depth: 17"_
+###### **DIMENSIONS:** Height: 26.5" Length: 22" Depth: 17"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

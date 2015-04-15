@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 Want to spruce up your bedroom? This antique lowboy dresser makes the perfect addition to your sleeping quarters, with stunning vintage details, original hardware and working wheels. Lightly distressed with french linen chalk paint finished with a protective creme wax. Refinished and restained wood top with a polyurethane sealant. 
 
-_**DIMENSIONS:** Height: 36" Width: 40" Depth: 17.5"_
+###### **DIMENSIONS:** Height: 36" Width: 40" Depth: 17.5"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

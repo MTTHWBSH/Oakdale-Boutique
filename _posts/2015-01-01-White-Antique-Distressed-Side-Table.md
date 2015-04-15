@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 Gorgeous antique distressed white side table features three lined drawers, original hardware, crackle/matte finish. Perfect for a nightstand, entryway table or side table! 
 
-_**DIMENSIONS:** Height: 22" Width: 24" Depth: 14"_
+###### **DIMENSIONS:** Height: 22" Width: 24" Depth: 14"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

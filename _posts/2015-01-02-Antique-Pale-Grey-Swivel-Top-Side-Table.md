@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 Beautiful lightly distressed, pale grey side table features a swivel top, two shelves, original hardware and matte finish. Perfect for an entertainment center, entryway table or side table! 
 
-_**DIMENSIONS:** Height: 31" Width: 28" Depth: 17 1/4"_ 
+###### **DIMENSIONS:** Height: 31" Width: 28" Depth: 17 1/4"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

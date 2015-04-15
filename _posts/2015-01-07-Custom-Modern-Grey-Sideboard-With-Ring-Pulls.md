@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 Sleek modern grey, highly glossed sideboard with tons of storage. Updated with new ring pulls. Features three sliding drawers, with dividers in top drawer, and two cabinets with shelves. Finished with protective wax and ultra gloss paint for modern finish. Perfect for use as a dining room sideboard, entertainment center or dresser. 
 
-_**DIMENSIONS:** Height: 31 1/4" Width: 59" Depth: 17 1/2"_
+###### **DIMENSIONS:** Height: 31 1/4" Width: 59" Depth: 17 1/2"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

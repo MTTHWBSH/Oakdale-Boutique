@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 Need some storage but don't have a lot of space? This antique highboy dresser is a perfect (and drop-dead gorgeous) solution! Beautiful vintage details, original hardware and working wheels. Lightly distressed with pure white chalk paint. Finished with a protective creme wax. 
 
-_**DIMENSIONS:** Height: 53" Width: 34" Depth: 20"_
+###### **DIMENSIONS:** Height: 53" Width: 34" Depth: 20"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

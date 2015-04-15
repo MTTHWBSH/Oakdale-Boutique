@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 Just in time for spring! This show stopping sideboard adds a pop of color in any room! Updated with new brushed brass modern hardware. Features three sliding drawers, with dividers in top two drawer, and four cabinets with storage. Lightly distressed and finished with protective wax. Perfect for use as a dining room sideboard/buffet/credenza, entertainment center or dresser. 
 
-_**DIMENSIONS:** Height: 32” Width: 62" Depth: 20"_
+###### **DIMENSIONS:** Height: 32” Width: 62" Depth: 20"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

@@ -10,7 +10,7 @@ etsy_link: //www.etsy.com/shop/OakdaleBoutique
 
 I must admit, I am in love with this buffet. Lightly distressed pure white, clawfoot buffet with restored natural wood top. Features original hardware, claw feet, gorgeous intricate details and tons of storage (two drawers, two cupboards with pull-out silverware drawer). Finished with creme wax for a little bit of shine and an ultra-matte polyurethane varnish on the wood for protection against wear. Perfect for use as a dining room buffet, sideboard, credenza! 
 
-_**DIMENSIONS:** Height: 36.5" Length: 68" Depth: 22"_
+###### **DIMENSIONS:** Height: 36.5" Length: 68" Depth: 22"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]

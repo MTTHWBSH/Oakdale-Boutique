@@ -50,10 +50,12 @@
 		p {
 			margin-bottom: $spacing-unit;
 			font-size: $large-font-size;
-			em {
-				font-family: $sans;
-				font-size: $base-font-size;
-			}
+		}
+		h6 {
+			font-family: $sans;
+			font-size: $base-font-size;
+			margin-bottom: $spacing-unit;
+			font-weight: 300;
 		}
 		img {
 			width: 100%;
