@@ -23,9 +23,12 @@ section.shop {
 		box-sizing: border-box;
 		-webkit-flex: 0 0 auto;
   		flex: 0 0 auto;
-  		margin-right: 2%;
-  		margin-bottom: 2%;
-  		width: 32%;
+  		margin-right: 15px;
+  		margin-bottom: 15px;
+  		margin-left: 0;
+  		width: -webkit-calc(33.3% - 15px);
+    	width: -moz-calc(33.3% - 15px);
+  		width: calc(33.3% - 15px);
   		background: lighten($grayLight, 20%);
   		&:nth-child(3n+3) {
   			margin-right: 0;
@@ -75,7 +78,6 @@ section.shop {
 		@include media-query($device-small) {
 			width: 100%;
 			margin-right: 0;
-			margin-bottom: 4%;
 		}
 	}
 	.button {
