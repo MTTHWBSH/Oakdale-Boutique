@@ -246,20 +246,21 @@ a {
         text-decoration: none;
         @include transition(all, 0.2s, linear);
     }
-    &.button {
-        font-family: $sans;
-        font-size: $large-font-size;
-        letter-spacing: 1px;
-        padding: $spacing-unit / 2 $spacing-unit * 3;
-        background: lighten($green, 15%);
+}
+
+.button {
+    font-family: $sans;
+    font-size: $large-font-size;
+    letter-spacing: 1px;
+    padding: $spacing-unit / 2 $spacing-unit * 3;
+    background: lighten($green, 15%);
+    color: $white;
+    text-align: center;
+    &:hover {
+        background: $green;
+        text-decoration: none;
         color: $white;
-        text-align: center;
-        &:hover {
-            background: $green;
-            text-decoration: none;
-            color: $white;
-            cursor: pointer;
-        }
+        cursor: pointer;
     }
 }
 

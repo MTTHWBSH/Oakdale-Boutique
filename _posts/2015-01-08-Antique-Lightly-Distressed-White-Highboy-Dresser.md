@@ -20,7 +20,7 @@ _**DIMENSIONS:** Height: 53" Width: 34" Depth: 20"_
 <!-- Images -->
 [image1]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429062185/Oakdale-Boutique/Posts/2015-01-08-Antique-Lightly-Distressed-White-Highboy-Dresser/IMG_8348.jpg
 
-[image2]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_8,w_2000/v1429062183/Oakdale-Boutique/Posts/2015-01-08-Antique-Lightly-Distressed-White-Highboy-Dresser/IMG_8357.jpg
+[image2]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429062183/Oakdale-Boutique/Posts/2015-01-08-Antique-Lightly-Distressed-White-Highboy-Dresser/IMG_8357.jpg
 
 [image3]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429062176/Oakdale-Boutique/Posts/2015-01-08-Antique-Lightly-Distressed-White-Highboy-Dresser/IMG_8359.jpg
 

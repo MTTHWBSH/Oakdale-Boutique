@@ -13,6 +13,7 @@
 			max-width: 70%;
 			white-space: normal;
 			line-height: 1.0;
+			float: left;
 			@include media-query($device-small) {
  				width: 65%;
  				font-size: $large-font-size;
@@ -23,8 +24,12 @@
 			font-family: $sans;
 			font-size: $large-font-size;
 			line-height: 1.2;
+			clear: left;
 			@include media-query($device-small) {
 				font-size: $base-font-size;
+ 			}
+ 			&.sold {
+ 				text-decoration: line-through;
  			}
 		}
 		.buy {
@@ -34,6 +39,12 @@
 			@include media-query($device-small) {
 				font-size: $base-font-size;
 				width: 35%;
+			}
+			&.disabled {
+				&:hover {
+					cursor: default;
+					background: lighten($green, 15%);
+				}
 			}
 		}
 		p {

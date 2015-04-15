@@ -8,7 +8,7 @@ layout: default
     <header>
       <h1 class="post-title">{{ page.title }}</h1>
       	{% if page.is_sold %}
-          <a href="#" class="buy button disabled">SOLD</a>
+          <div class="buy button disabled">SOLD</div>
           <h2 class="price sold">&nbsp;{{ page.price }}&nbsp;</h2>
         {% else %}
           <a href="{{ page.etsy_link }}" class="buy button">Buy on Etsy</a>
