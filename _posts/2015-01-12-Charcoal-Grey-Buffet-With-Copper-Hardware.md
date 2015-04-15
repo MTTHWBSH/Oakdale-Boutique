@@ -23,7 +23,7 @@ _**DIMENSIONS:** Height: 36.5" Width: 66" Depth: 22"_
 
 [image2]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429117038/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8410.jpg
 
-[image3]: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,q_8,w_2000/v1429117037/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8413.jpg
+[image3]: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,q_80,w_2000/v1429117037/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8413.jpg
 
 [image4]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429117036/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8418.jpg
 
