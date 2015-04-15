@@ -6,14 +6,12 @@
 	.post-content {
 		margin-top: 50px;
 		header {
-			margin-bottom: $spacing-unit;
+			margin-bottom: $spacing-unit * 2;
 		}
 		.post-title {
 			display: inline-block;
 			max-width: 70%;
-			text-overflow: ellipsis;
-			white-space: nowrap;
-			overflow: hidden;
+			white-space: normal;
 			line-height: 1.0;
 			@include media-query($device-small) {
  				width: 65%;
@@ -24,7 +22,10 @@
 			color: $grayLight;
 			font-family: $sans;
 			font-size: $large-font-size;
-			line-height: 1.0;
+			line-height: 1.2;
+			@include media-query($device-small) {
+				font-size: $base-font-size;
+ 			}
 		}
 		.buy {
 			float: right;
@@ -36,12 +37,16 @@
 			}
 		}
 		p {
-			margin: $spacing-unit / 2 0;
+			margin-bottom: $spacing-unit;
 			font-size: $large-font-size;
+			em {
+				font-family: $sans;
+				font-size: $base-font-size;
+			}
 		}
 		img {
 			width: 100%;
-			margin: $spacing-unit / 2 0;
+			margin-bottom: $spacing-unit;
 		}
 	}
 }

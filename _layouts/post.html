@@ -7,11 +7,12 @@ layout: default
 	<section class="post-content">
     <header>
       <h1 class="post-title">{{ page.title }}</h1>
-      	{% if post.is_sold %}
-      	 <h2 class="price sold">&nbsp;SOLD&nbsp;</h2>
+      	{% if page.is_sold %}
+          <a href="#" class="buy button disabled">SOLD</a>
+          <h2 class="price sold">&nbsp;{{ page.price }}&nbsp;</h2>
         {% else %}
-      	 <a href="#" class="buy button">Buy on Etsy</a>
-      	 <h2 class="price">{{ page.price }}</h2>
+          <a href="{{ page.etsy_link }}" class="buy button">Buy on Etsy</a>
+          <h2 class="price">{{ page.price }}</h2>
         {% endif %}
     </header>
 	  <article>
