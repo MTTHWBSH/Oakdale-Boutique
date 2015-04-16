@@ -26,7 +26,7 @@
   height: 100%;
   width: 100%;
   @include media-query($device-small) {
-    position: relative;
+    // position: relative;
     margin-top: 0 !important;
     background-size: cover;
     height: 400px !important;
