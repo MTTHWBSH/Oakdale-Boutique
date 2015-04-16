@@ -1,13 +1,9 @@
 (function() {
-  var heroSize, loadMorePosts, parallax, showContent;
+  var heroSize, loadMorePosts, showContent;
 
   $(document).ready(function() {
     heroSize();
     $('.loadMore').click(loadMorePosts);
-  });
-
-  $(window).scroll(function(e) {
-    parallax();
   });
 
   $(window).load(function() {
@@ -36,19 +32,12 @@
 
   heroSize = function() {
     $(".hero").css({
-      height: ($(window).height() - 50) + "px"
+      height: ($(window).height()) + "px"
     });
-    $(".parallax-content").css('margin-top', ($(window).height()) + "px");
   };
 
   showContent = function() {
     $(".page-content").addClass("load");
-  };
-
-  parallax = function() {
-    var scrolled;
-    scrolled = $(window).scrollTop();
-    $(".hero").css("top", -(scrolled * 0.0115) + "rem");
   };
 
   loadMorePosts = function() {

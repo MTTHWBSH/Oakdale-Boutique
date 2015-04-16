@@ -181,13 +181,8 @@ dl, dd, ol, ul, figure {
 }
 
 .parallax-content {
-    z-index: 1000 !important;
     background-color: $white;
-    position: absolute;
     width: 100%;
-    @include media-query($device-medium) {
-        margin-top: 340px !important;
-    }
 }
 
 section {

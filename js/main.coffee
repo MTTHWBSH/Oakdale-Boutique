@@ -7,10 +7,6 @@ $(document).ready ->
   $('.loadMore').click loadMorePosts
   return
 
-$(window).scroll (e) ->
-  parallax()
-  return
-
 $(window).load ->
   showContent()
   return
@@ -31,17 +27,11 @@ $ ->
   return
 
 heroSize = ->
-  $(".hero").css height: ($(window).height() - 50) + "px"
-  $(".parallax-content").css('margin-top', ($(window).height()) + "px")
+  $(".hero").css height: ($(window).height()) + "px"
   return
 
 showContent = ->
   $(".page-content").addClass "load"
-  return
-
-parallax = ->
-  scrolled = $(window).scrollTop()
-  $(".hero").css "top", -(scrolled * 0.0115) + "rem"
   return
 
 loadMorePosts = ->
