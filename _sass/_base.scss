@@ -175,9 +175,9 @@ dl, dd, ol, ul, figure {
     background-color: $white;
     position: absolute;
     width: 100%;
-    @include media-query($device-small) {
-        margin-top: 0 !important;
-    }
+    // @include media-query($device-small) {
+    //     margin-top: 0 !important;
+    // }
 }
 
 section {
