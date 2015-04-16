@@ -1,9 +1,13 @@
 (function() {
-  var heroSize, loadMorePosts, showContent;
+  var heroSize, loadMorePosts, parallax, showContent;
 
   $(document).ready(function() {
     heroSize();
     $('.loadMore').click(loadMorePosts);
+  });
+
+  $(window).scroll(function(e) {
+    parallax();
   });
 
   $(window).load(function() {
@@ -39,6 +43,12 @@
 
   showContent = function() {
     $(".page-content").addClass("load");
+  };
+
+  parallax = function() {
+    var scrolled;
+    scrolled = $(window).scrollTop();
+    $(".hero").css("top", -(scrolled * 0.0115) + "rem");
   };
 
   loadMorePosts = function() {

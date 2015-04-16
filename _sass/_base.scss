@@ -202,6 +202,9 @@ section {
             font-family: $script;
             font-size: $xxlarge-font-size;
             line-height: 100%;
+            @include media-query($device-small) {
+                font-size: $xlarge-font-size;
+            }
         }
     }
 }

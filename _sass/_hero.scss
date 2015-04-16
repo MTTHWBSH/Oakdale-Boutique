@@ -27,9 +27,6 @@
   height: 100%;
   width: 100%;
   @include media-query($device-small) {
-    position:fixed;
-    margin-top: 0 !important;
-    top: 0;
     background-size: cover;
     height: 340px !important;
     width: 100%;
