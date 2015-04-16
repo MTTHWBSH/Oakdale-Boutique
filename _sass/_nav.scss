@@ -10,28 +10,39 @@
 	z-index: 20;
 	box-shadow: 0px 0px 10px $gray;
 	width: 100%;
-	h1 {
-		font-family: $script;
-		font-size: $xlarge-font-size;
+	a.brand {
 		line-height: 50px;
 		display: inline;
 		float: left;
 		padding: 0;
-		a {
+		color: $grayDark;
+		&:hover {
 			color: $grayDark;
-			&:hover {
-				color: $grayDark;
+		}
+		h1 {
+			font-family: $script;
+			font-size: $xlarge-font-size;
+			display: inline-block;
+			line-height: 56px;
+			@include media-query($device-small) {
+ 				display: none;
+ 				visibility: hidden;
+ 			}
+		}
+		.icon > svg {
+			float: left;
+			height: 34px;
+			padding: 8px 10px 0 0;
+			path {
+				fill: $grayDark;
+				stroke: $grayDark;
 			}
 		}
-		@include media-query($device-small) {
- 			display: none;
- 			visibility: hidden;
- 		}
 	}
 	ul {
 		float: right;
 		list-style-type: none;
-		line-height: 50px;
+		line-height: 52px;
 		font-family: $sans;
 		font-size: $base-font-size;
 		margin: 0;
@@ -49,9 +60,5 @@
 		a {
 			color: $grayDark;
 		}
-		@include media-query($device-small) {
- 			float: none;
- 			text-align: center;
- 		}
 	}
 }

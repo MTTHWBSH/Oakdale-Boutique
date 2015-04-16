@@ -2,9 +2,15 @@
   <div class="wrapper">
     <div class="content">
         {% if page.is_home %}
-            <h1><a href="#">Oakdale Boutique</a></h1>
+            <a class="brand" href="#">
+                {% include icons/logo.html %}
+                <h1>Oakdale Boutique</h1>
+            </a>
         {% else %}
-            <h1><a href="{{ site.url }}">Oakdale Boutique</a></h1>
+            <a class="brand" href="{{ site.url }}">
+                {% include icons/logo.html %}
+                <h1>Oakdale Boutique</h1>
+            </a>
         {% endif %}
     	<ul>
             {% if page.is_home %}
