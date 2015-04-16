@@ -8,23 +8,28 @@
 	text-align: center;
 	color: $white;
 	position: fixed;
-    z-index: 1;
-    margin-top: 50px !important;
-    bottom:  0;
-    left: 0;
-    right: 0;
-  	-webkit-animation-name: hero;
-	-webkit-animation-duration: 30s;
-	-webkit-animation-iteration-count: infinite;
-	-moz-animation-name: hero;
-	-moz-animation-duration: 30s;
-	-moz-animation-iteration-count: infinite;
-    animation-name: hero;
-  	animation-duration: 30s;
-  	animation-iteration-count: infinite;
-  	img {
-  		background-size: cover;
-  		height: 100%;
-  		width: 100%;
-  	}
+  z-index: 1 !important;
+  margin-top: 50px !important;
+  bottom:  0;
+  left: 0;
+  right: 0;
+  -webkit-animation-name: hero;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: hero;
+  -moz-animation-duration: 30s;
+  -moz-animation-iteration-count: infinite;
+  animation-name: hero;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  @include media-query($device-small) {
+    position: relative;
+    margin-top: 0 !important;
+    background-size: cover;
+    height: 400px !important;
+    width: 100%;
+  }
 }

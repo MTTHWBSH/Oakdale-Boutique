@@ -32,7 +32,8 @@
 		.icon > svg {
 			float: left;
 			height: 34px;
-			padding: 8px 10px 0 0;
+			margin: 8px 10px 8px 0;
+			line-height: 50px;
 			path {
 				fill: $grayDark;
 				stroke: $grayDark;

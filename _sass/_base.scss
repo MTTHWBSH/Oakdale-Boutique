@@ -15,26 +15,12 @@ dl, dd, ol, ul, figure {
   background: $greenLight;
 }
 
-.parallax-content {
-    z-index: 10;
-    background-color: $white;
-    position: absolute;
-    width: 100%;
-}
-
-section {
-    padding: $spacing-unit * 2.5 0;
-    border-bottom: 4px double $grayDark;
-    .section-header {
-        text-align: left;
-        margin-bottom: $spacing-unit;
-        h1 {
-            color: $grayDark;
-            display: block;
-            font-family: $script;
-            font-size: $xxlarge-font-size;
-            line-height: 100%;
-        }
+/**
+ * Medida Queries
+ */
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
     }
 }
 
@@ -184,9 +170,36 @@ section {
     opacity: 1;
 }
 
+.parallax-content {
+    z-index: 1000 !important;
+    background-color: $white;
+    position: absolute;
+    width: 100%;
+    @include media-query($device-small) {
+        margin-top: 0 !important;
+    }
+}
+
+section {
+    padding: $spacing-unit * 2.5 0;
+    border-bottom: 4px double $grayDark;
+    .section-header {
+        text-align: left;
+        margin-bottom: $spacing-unit;
+        h1 {
+            color: $grayDark;
+            display: block;
+            font-family: $script;
+            font-size: $xxlarge-font-size;
+            line-height: 100%;
+        }
+    }
+}
+
 /**
  * Basic styling
  */
+
 body {
     font-family: $serif;
     font-size: $base-font-size;
@@ -315,12 +328,3 @@ pre {
     margin: $spacing-unit / 2 0;
     border: 1px $grayDark dashed;
  }
-
-/**
- * Medida Queries
- */
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
