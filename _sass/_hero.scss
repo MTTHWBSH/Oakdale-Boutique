@@ -26,7 +26,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
-  @include media-query($device-small) {
+  @include media-query($device-medium) {
     top: 0;
     background-size: cover;
     height: 340px !important;

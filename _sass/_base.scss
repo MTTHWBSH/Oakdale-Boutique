@@ -185,7 +185,7 @@ dl, dd, ol, ul, figure {
     background-color: $white;
     position: absolute;
     width: 100%;
-    @include media-query($device-small) {
+    @include media-query($device-medium) {
         margin-top: 340px !important;
     }
 }
