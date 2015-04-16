@@ -5,6 +5,7 @@
 .hero {
 	background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero.jpg');
 	background-size: cover;
+  background-position: center;
 	text-align: center;
 	color: $white;
 	position: fixed;
@@ -28,8 +29,9 @@
   @include media-query($device-small) {
     position:fixed;
     margin-top: 0 !important;
+    top: 0;
     background-size: cover;
-    height: 400px !important;
+    height: 340px !important;
     width: 100%;
   }
 }

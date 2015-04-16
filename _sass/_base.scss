@@ -116,38 +116,48 @@ dl, dd, ol, ul, figure {
     from {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero.jpg');
         background-size: cover;
+        background-position: center;
     }
     23% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero.jpg');
         background-size: cover;
+        background-position: center;
+
     }
     25% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero2.jpg');   
         background-size: cover;
+        background-position: center;
     }
     48% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero2.jpg'); 
-        background-size: cover;  
+        background-size: cover;
+        background-position: center;  
     }
     50% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero3.jpg');
         background-size: cover;
+        background-position: center;
     }
     73% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero3.jpg');  
-        background-size: cover;  
+        background-size: cover;
+        background-position: center;  
     }
     75% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero4.jpg'); 
         background-size: cover;
+        background-position: center;
     }
     98% {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero4.jpg'); 
         background-size: cover;
+        background-position: center;
     }
     to {
         background: url('//res.cloudinary.com/dbytj1unq/image/upload/q_80/v1429111788/Oakdale-Boutique/Hero/hero.jpg'); 
         background-size: cover;
+        background-position: center;
     }
 }
 
@@ -175,9 +185,9 @@ dl, dd, ol, ul, figure {
     background-color: $white;
     position: absolute;
     width: 100%;
-    // @include media-query($device-small) {
-    //     margin-top: 0 !important;
-    // }
+    @include media-query($device-small) {
+        margin-top: 340px !important;
+    }
 }
 
 section {
