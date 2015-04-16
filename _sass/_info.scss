@@ -18,18 +18,17 @@ section.info {
 		align-items: center;
 		margin-bottom: $spacing-unit;
 		text-align: center;
-		@include media-query($device-small) {
-			display: block;
-		}
 		.card {
 			margin: 0 $spacing-unit * 2;
 			@include media-query($device-small) {
-				margin: $spacing-unit 0;
-				display: block;
+				margin: 0 $spacing-unit / 2;
 			}
 		}
 		.icon>svg {
 			height: 70px;
+			@include media-query($device-small) {
+				height: 40px;
+			}
 			path {
 				fill: $grayLight;
 				stroke: $grayLight;
@@ -45,7 +44,7 @@ section.info {
 			margin-top: $spacing-unit / 2;
 			font-family: $sans;
 			text-align: center;
-			font-size: $large-font-size;
+			font-size: $base-font-size;
 			color: $grayLight;
 			letter-spacing: 1px;
 		}
