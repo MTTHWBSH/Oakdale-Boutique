@@ -1,16 +1,16 @@
 ---
 layout: post
-permalink: /Gloss-Marine-Sideboard/
-title: 'Gloss Marine Sideboard'
+permalink: /Charcoal-Grey-Buffet-With-Copper-Hardware/
+title: 'Charcoal Grey Buffet with Copper Hardware'
 thumbnail: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,h_1000,q_80,w_1000/v1429117036/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/Thumb12.jpg
-is_sold: true
-price: '$300'
-etsy_link: //www.etsy.com/listing/230238426/sold-gloss-marine-sideboard
+is_sold: false
+price: '$475'
+etsy_link: //www.etsy.com/listing/229986244/charcoal-grey-buffet-with-copper
 ---
 
-They just don't make it like this anymore... This ornate sideboard features original hardware updated with an antique brass finish. Three top drawers, two middle drawers and two side cabinets allow for plenty of storage. Finished in semi-gloss paint with a coating of poly for extreme durability. Perfect for use as a dining room sideboard/ buffet/ crendenza, entertainment center or dresser. 
+This is quite the dining room show stopper! This fantastic charcoal grey buffet with original hardware spray painted copper features two large storage cabinets and two drawers to store all your beloved dishes and silverware! Ultra matte finish with paste wax for protection against scratches. 
 
-###### **DIMENSIONS:** Height: 32" Width: 61" Depth: 19"
+###### **DIMENSIONS:** Height: 36.5" Width: 66" Depth: 22"
 
 ![Photo of furniture][image1]
 ![Photo of furniture][image2]
