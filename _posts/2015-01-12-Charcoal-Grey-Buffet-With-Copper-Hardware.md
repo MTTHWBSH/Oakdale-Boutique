@@ -2,7 +2,7 @@
 layout: post
 permalink: /Gloss-Marine-Sideboard/
 title: 'Gloss Marine Sideboard'
-thumbnail: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,h_1000,q_80,w_1000/v1429117036/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/Thumb12.jpg
+thumbnail: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,h_1000,q_80,w_1000/v1429630010/Oakdale-Boutique/Posts/Gloss-Marine-Sideboard/thumb.jpg
 is_sold: true
 price: '$300'
 etsy_link: //www.etsy.com/listing/230238426/sold-gloss-marine-sideboard
@@ -16,15 +16,12 @@ They just don't make it like this anymore... This ornate sideboard features orig
 ![Photo of furniture][image2]
 ![Photo of furniture][image3]
 ![Photo of furniture][image4]
-![Photo of furniture][image5]
 
 <!-- Images -->
-[image1]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429117038/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8404.jpg
+[image1]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429630010/Oakdale-Boutique/Posts/Gloss-Marine-Sideboard/IMG_8424.jpg
 
-[image2]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429117038/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8410.jpg
+[image2]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429630014/Oakdale-Boutique/Posts/Gloss-Marine-Sideboard/IMG_8431.jpg
 
-[image3]: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,q_80,w_2000/v1429117037/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8413.jpg
+[image3]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429630012/Oakdale-Boutique/Posts/Gloss-Marine-Sideboard/IMG_8428.jpg
 
-[image4]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429117036/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8418.jpg
-
-[image5]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429117037/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/IMG_8419.jpg
+[image4]: //res.cloudinary.com/dbytj1unq/image/upload/c_limit,q_80,w_2000/v1429630012/Oakdale-Boutique/Posts/Gloss-Marine-Sideboard/IMG_8429.jpg
