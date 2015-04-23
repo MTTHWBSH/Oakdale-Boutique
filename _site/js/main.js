@@ -46,6 +46,7 @@
     $posts = $('.post-list');
     $nextPage = $posts.data('page') + 1;
     $totalPages = $posts.data('totalpages');
+    console.log($nextPage, $totalPages);
     if ($nextPage === $totalPages) {
       $('.loadMore').hide();
     }
@@ -54,7 +55,7 @@
       var $post, htmlData;
       htmlData = $.parseHTML(data);
       $post = $(htmlData).find('.post-preview');
-      $posts.attr('data-page', $nextPage).append($post);
+      $posts.data('page', $nextPage).append($post);
       return $(_this).removeClass('loading');
     });
   };
