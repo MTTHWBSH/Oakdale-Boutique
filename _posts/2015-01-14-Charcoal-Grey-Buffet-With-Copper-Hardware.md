@@ -3,7 +3,7 @@ layout: post
 permalink: /Charcoal-Grey-Buffet-With-Copper-Hardware/
 title: 'Charcoal Grey Buffet with Copper Hardware'
 thumbnail: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,h_1000,q_80,w_1000/v1429117036/Oakdale-Boutique/Posts/2015-01-12-Charcoal-Grey-Buffet-With-Copper-Hardware/Thumb12.jpg
-is_sold: false
+is_sold: true
 price: '$475'
 etsy_link: //www.etsy.com/listing/229986244/charcoal-grey-buffet-with-copper
 ---

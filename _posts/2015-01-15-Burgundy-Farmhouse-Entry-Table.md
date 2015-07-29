@@ -3,7 +3,7 @@ layout: post
 permalink: /Burgundy-Farmhouse-Entry-Table/
 title: 'Burgundy Farmhouse Entry Table'
 thumbnail: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,h_1000,q_80,w_1000/v1429815721/Oakdale-Boutique/Posts/Burgundy-Farmhouse-Entry-Table/thumb.jpg
-is_sold: false
+is_sold: true
 price: '$300'
 etsy_link: //www.etsy.com/listing/230978498/burgundy-farmhouse-entry-table
 ---

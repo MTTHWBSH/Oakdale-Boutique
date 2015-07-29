@@ -4,7 +4,7 @@ permalink: /Whitewashed-French-Grey-Side-Table/
 title: 'Whitewashed French Grey Side Table'
 thumbnail: //res.cloudinary.com/dbytj1unq/image/upload/c_scale,h_1000,q_80,w_1000/v1432171824/Oakdale-Boutique/Posts/Whitewashed-French-Grey-Side-Table/thumb2.jpg
 is_sold: false
-price: '$120'
+price: '$100'
 etsy_link: //www.etsy.com/listing/233355206/whitewashed-french-grey-side-table
 ---
 
