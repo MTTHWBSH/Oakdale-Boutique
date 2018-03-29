@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/MTTHWBSH/Oakdale-Boutique/issues"
   },
-  "homepage": "http://oakdaleboutique.com",
+  "homepage": "http://oakdaleboutique.katebushart.com",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-imagemin": "^2.2.1",
